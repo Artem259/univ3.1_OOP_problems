@@ -19,7 +19,7 @@ public class MyCyclicBarrierTest {
     }
 
     @Test
-    public void await() {
+    public void testBarrier() {
         final ArrayList<Integer> list = new ArrayList<>();
         list.add(0);
 
