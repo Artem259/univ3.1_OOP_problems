@@ -54,7 +54,7 @@ public class MyCyclicBarrierTest {
             expectedList.add(threadsN);
         }
 
-        System.out.println(expectedList);
+        System.out.println(list);
         assertEquals(expectedList, list);
     }
 }
