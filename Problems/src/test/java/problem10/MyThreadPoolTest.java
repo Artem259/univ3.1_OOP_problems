@@ -18,7 +18,7 @@ public class MyThreadPoolTest {
     @Test
     public void submit() throws InterruptedException {
         final int tasks = 100000;
-        final int threads = 1;
+        final int threads = 10;
 
         Runnable runnable = () -> atomic.incrementAndGet();
         MyThreadPool threadPool = new MyThreadPool(threads);
